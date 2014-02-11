@@ -21,7 +21,7 @@ To customize the name or location of the generated source map, pass a string to 
 
 _Should this be split out into `sourceMapName` and `sourceMapDir` options?_
 
-#### Style
+#### sourceMapStyle
 
 Type: `string`  
 Default: `"Link"`
