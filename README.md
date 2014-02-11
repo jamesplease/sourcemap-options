@@ -24,7 +24,7 @@ _Should this be split out into `sourceMapName` and `sourceMapDir` options?_
 #### sourceMapStyle
 
 Type: `string`  
-Default: `"Embed"`
+Default: `"embed"`
 
 Determines the type of source map that is generated. The default value, `embed`, places the content of the sources directly into the map. `link` will reference the original sources in the map as links. `inline` will store the entire map as a data URI in the destination file.
 
