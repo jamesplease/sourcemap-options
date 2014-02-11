@@ -28,6 +28,19 @@ Default: `"embed"`
 
 Determines the type of source map that is generated. The default value, `embed`, places the content of the sources directly into the map. `link` will reference the original sources in the map as links. `inline` will store the entire map as a data URI in the destination file.
 
+### Supported use cases
+
+* The most basic case is supported by simply setting `sourceMap: true`. No other config necessary.
+* Moving/changing the name of the map: using sourceMapName
+* Including an older source map: done automatically by parsing the sourceMappingURL of any source files.
+
+
+### Unsupported use cases
+
+* Storing the source map on another server
+* Separating the source map from the source files. Use the embed or datauri option instead
+* Combining datauri with the `link` style
+
 ### Resources
 
 * [Source Map Revision 3 Proposal](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit)
