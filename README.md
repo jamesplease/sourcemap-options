@@ -21,12 +21,12 @@ To customize the name or location of the generated source map, pass a string to 
 
 _Should this be split out into `sourceMapName` and `sourceMapDir` options?_
 
-#### Type
+#### Style
 
 Type: `string`  
 Default: `"Link"`
 
-The type of source map to generate. The default value, `link`, references links to the source files. `embed` will embed the content of the source files directly into the map. `inline` will store the entire map as a data URI in the destination file.
+Determines the type of source map that is generated. The default value, `link`, references links to the source files. `embed` will embed the content of the source files directly into the map. `inline` will store the entire map as a data URI in the destination file.
 
 ### Resources
 
