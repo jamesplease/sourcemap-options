@@ -1,7 +1,7 @@
 sourcemap-options
 =================
 
-The source map options for the `grunt-contrib` suite.
+The source map options for the `grunt-contrib` suite. Any plugin that can't support the source map options through its associated library will rely on an external helper library (in the works) to shim the functionality.
 
 ### Options
 
