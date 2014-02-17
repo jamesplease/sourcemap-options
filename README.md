@@ -1,7 +1,7 @@
 sourcemap-options
 =================
 
-The source map options for the `grunt-contrib` suite. Any plugin that can't support the source map options through its associated library will rely on an external helper library (in the works) to shim the functionality.
+The future source map options for the `grunt-contrib` suite. Any plugin that can't support the source map options through its associated library will rely on an external helper library (in the works) to shim the functionality.
 
 ### Options
 
@@ -18,8 +18,6 @@ Type: `string`  `function`
 Default: `undefined`
 
 To customize the name or location of the generated source map, pass a string to indicate where to write the source map to. If a function is provided, the uglify destination is passed as the argument and the return value will be used as the file name.
-
-_Should this be split out into `sourceMapName` and `sourceMapDir` options?_
 
 #### sourceMapStyle
 
