@@ -31,6 +31,7 @@ Determines the type of source map that is generated. The default value, `embed`,
 * The most basic case is supported by simply setting `sourceMap: true`. No other config necessary.
 * Moving/changing the name of the map: using sourceMapName
 * Including an older source map: done automatically by parsing the sourceMappingURL of any source files.
+* The directory structure of the project differing from the webserver (for instance, the webroot being at, say, `/build`)
 
 
 ### Unsupported use cases
