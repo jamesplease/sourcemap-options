@@ -17,7 +17,7 @@ Set to true to create a source map. The source map will be created alongside the
 Type: `string`  `function`  
 Default: `undefined`
 
-To customize the name or location of the generated source map, pass a string to indicate where to write the source map to. If a function is provided, the uglify destination is passed as the argument and the return value will be used as the file name.
+To customize the name or location of the generated source map, pass a string to indicate where to write the source map to. If a function is provided, the destination file path is passed as the argument and the return value will be used as the file name.
 
 #### sourceMapStyle
 
